@@ -1,5 +1,4 @@
-# drake_rih_sentiment_analysis
-
+# Drake & Rihanna Sentiment Analysis 
 
 The following is a sentiment analysis I performed on Drake and Rihanna's songs. The first step was to collect all of their songs through Spotify's API (shown in drak_rih_songs.R). There I first gathered all of the albums of each artist with the getAlbums() call. Once I have a clean vector of every album I loop through every album and grab the songs. The final part of the song collection is to add the year of each album manually. 
 
