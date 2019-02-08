@@ -5,7 +5,7 @@ The following is a sentiment analysis I performed on Drake and Rihanna's songs. 
 
 The next step is to get the lyrics for every song (found in drake_rih_lyrics.R) using Rap Genius's API. In this script I iterate through every song I've grabbed from Spotify's API and use the call scrape_lyrics_id(). With some general error handeling with the API and some cleaning and dataframe manipulation I end up with a dataframe that has all the lyrics of every song for each artists, with each row in the dataframe being a line of a song. 
 
-Finally comes the visualization and analysis. 
+Finally comes the sentiment analysis and visualization. The Syuzhet package will take in a sentence and catagorize it as either anger, anticipation, disgust, fear, joy, sadness, surprise, trust, negative, or positive with the call get_nrc_sentiment(). The RSentiment package, however, will assign a score to a sentence to rank how positive or negative it is with the call calculate_sentiment(). After calculating these sentiment metrics for every line in every song of Drake and Rihanna's, I visualize the results below. 
 
 ### Overall Positivity / Negativity 
 
