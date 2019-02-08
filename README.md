@@ -14,13 +14,13 @@ Here are histograms of the sentiments of Drake and Rihanna's songs. With the lar
 
 ### Overall Sentiments
 
-Here is a similar chart but rather numbers the lyrics are binned into the categories: Very Negative, Negative, Neutral, Positive, and Very Positive (Sarcastic was excluded for this analysis). Neutral is the dominant line type. 
+Here is a similar chart but rather than numbers the lyrics are binned into the categories: Very Negative, Negative, Neutral, Positive, and Very Positive (Sarcastic was excluded for this analysis). Neutral is the dominant line type. 
 
 <img width="800" alt="screen shot 2018-03-01 at 6 19 04 pm" src="https://user-images.githubusercontent.com/38504767/52453833-26666e00-2b17-11e9-8ab5-0d4a5bf00685.png">
 
 ### Emotions
 
-Below are the sentiments from R's syuzhet package which provides a little more granularity to the sentiments of the lyrics. Both artists had positive and negative as their top two Emotions, but Drake's 3rd highest emotion was trust which was all the way down at 7th for Rihanna. Both artists rarely sang about feelings of surprise. 
+Below are the sentiments from R's Syuzhet package which provides a little more granularity to the sentiments of the lyrics. Both artists had positive and negative as their top two Emotions, but Drake's 3rd highest emotion was trust which was all the way down at 7th for Rihanna. Both artists rarely sang about feelings of surprise. 
 
 <img width="800" alt="screen shot 2018-03-01 at 8 14 16 pm" src="https://user-images.githubusercontent.com/38504767/52453877-4f86fe80-2b17-11e9-8406-0beac63d3f25.png">
 
@@ -30,7 +30,7 @@ Below are the sentiments from R's syuzhet package which provides a little more g
 Finally we have the most interesting analysis to me. These charts show how the artists subject matter (in terms of sentiment scores) changed over the years. Interestingly enough Drake started off more positive in his early career. As he progressed, his lyrics got more and more negative until a slight rebound in 2016 with his album "Views". 
 
 
-Rihanna, on the other hand, had the exact opposite pattern. Her early career started off with signing with more negative lyrics. As her career grew, her lyrics became progressively more positive, peaking at her album "Talk That Talk" in 2011. 
+Rihanna, on the other hand, had the opposite pattern. Her early career started off with signing with more negative lyrics. As her career grew, her lyrics became progressively more positive, peaking at her album "Talk That Talk" in 2011. 
 
 <img width="800" alt="screen shot 2018-03-01 at 9 57 28 pm" src="https://user-images.githubusercontent.com/38504767/52453908-73e2db00-2b17-11e9-94fa-9cc4eb457131.png">
 
