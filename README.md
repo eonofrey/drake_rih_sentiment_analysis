@@ -1,6 +1,6 @@
 # Drake & Rihanna Sentiment Analysis 
 
-The following is a sentiment analysis I performed on Drake and Rihanna's songs. The first step was to collect all of their songs through Spotify's API (shown in drak_rih_songs.R). There I first gathered all of the albums of each artist with the getAlbums() call. Once I have a clean vector of every album I loop through every album and grab the songs. The final part of the song collection is to add the year of each album manually. 
+The following is a sentiment analysis I performed on Drake and Rihanna's songs. The first step was to collect all of their songs through Spotify's API (shown in drak_rih_songs.R). I first gathered all of the albums of each artist with the getAlbums() call. Once I have a clean vector of every album, I loop through each album and grab all of its songs. The final part of the song collection is to add the year of each album manually. 
 
 The next step is to get the lyrics for every song (found in drake_rih_lyrics.R) using Rap Genius's API. In this script I iterate through every song I've grabbed from Spotify's API and use the call scrape_lyrics_id(). With some general error handeling with the API and some cleaning and dataframe manipulation I end up with a dataframe that has all the lyrics of every song for each artists, with each row in the dataframe being a line of a song. 
 
